@@ -1,0 +1,28 @@
+.form{
+	width: 100%;
+}
+
+.form input{
+	width: 40%;
+}
+
+
+.container {
+	width: 50%;
+	text-align: center;
+}
+
+
+  .btn {
+    color:#008B8B;
+    background-color:transparent;
+    box-shadow: 3px 3px 3px #008B8B;
+    border-color: #008B8B;
+    margin:5px;
+  }
+
+  .btn:hover {
+      background-color: #F9F9F9;
+      color:#008B8B;
+      border-color: #008B8B;
+  }

@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+		@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body{
+ 
+}
+
+.container {
+    border: 1px solid #008B8B;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.container-full{
+    
+
+}
+
+
+.navbar {
+  
+}
+
+.navbar .navbar-nav {
+   justify-content: center;
+    float: none;
+    
+}
+.navbar .navbar-collapse {
+    text-align: center;
+   
+}
+
+.img1{
+    height: 39px !important;
+    margin-right: 20px;
+}
+
+.carousel slide {
+    width: 100% !important;
+}
+
+
+
+.card{
+    color:#1B2633;
+}
+.nav-item a{
+  color: #008B8B;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: #008B8B !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size:19px;
+      padding: 5px;
+  }
+
+  a:hover{
+    color: #095353 !important;
+
+  }
+
+  
+
+  .btn {
+    color:#008B8B;
+    background-color:transparent;
+    box-shadow: 3px 3px 3px #008B8B;
+    border-color: #008B8B;
+  
+  }
+
+  .btn:hover {
+      background-color: #F9F9F9;
+      color:#008B8B;
+      border-color: #008B8B;
+  }
+
+
+  h2 {
+    color: #008B8B !important;
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center;
+  }
+
+  .modal-footer input{
+      color: #008B8B;
+  }
+
+  .modal-title{
+    color: #008B8B;
+    font-family: 'Quicksand', sans-serif !important;
+          font-size:19px;
+  }
+
+  .form-control-label{
+    color: #008B8B;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .btn-outline-info:hover{
+    background-color: #008B8B;
+    color: black;
+    border-color: #008B8B;
+  }
+
+  .dropdown-item{
+    color: #008B8B;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+  
+  .carousel {
+    width:100%;
+    padding:120px;
+    text-align:center;
+    
+  }
+  
+  .carousel img {
+      
+  }
+
+  .d-block{
+    border-radius: 5px;
+  }
+
+  h3 {
+    color: #008B8B !important;
+    font-family: 'Quicksand', sans-serif !important;
+  }
+  .card-text{
+    color: #000000 !important;
+    font-family: 'Quicksand', sans-serif !important;
+  }
+
+  .adicionar{
+    text-align: center;
+  }
+
+  h4{
+    color: #008B8B !important;
+    font-family: 'Quicksand', sans-serif !important;
+  }
